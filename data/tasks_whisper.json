@@ -1,0 +1,304 @@
+{
+    "tasks": [
+        {
+            "reference_text": "今天的天气特别晴朗，我想去河边散步。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "你今天有没有试过新开的那家餐厅？",
+            "is_validation": false
+        },
+        {
+            "reference_text": "这部电影真的很有意思，你一定会喜欢。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "请问最近的图书馆在哪里？我想借一本书。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "现在是几点钟？我们该出发去车站了。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "我很喜欢这件衣服的设计和它的颜色搭配。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "最近我在学烹饪，做了几道特别有趣的菜。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "请问从这里走到公园需要多长时间？",
+            "is_validation": false
+        },
+        {
+            "reference_text": "我推荐你看一下这本小说，故事非常精彩。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "天气预报说明天会有小雨，最好带上雨伞。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "昨天我们在湖边拍了很多照片，景色很美。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "下周的会议需要准备好材料，你有空帮我吗？",
+            "is_validation": false
+        },
+        {
+            "reference_text": "这家店的甜点种类很多，我每次都会多点几样。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "这个计划看起来很不错，我们可以再完善一下。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "她下个月要去留学，我们正在帮她准备行李。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "我最近买了一款新手机，功能特别强大。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "今天的工作虽然很多，但完成之后很有成就感。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "这个景点每年都有很多游客，我们最好早点去。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "你最近有没有听到什么特别有趣的故事？",
+            "is_validation": false
+        },
+        {
+            "reference_text": "这次的比赛非常激烈，大家都全力以赴。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "你能帮我把这个文件打印出来吗？非常感谢。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "明天早上记得叫我起床，我怕自己会睡过头。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "周末的时间总是过得很快，感觉刚开始就结束了。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "你有没有去过那个古镇？听说很有文化气息。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "这台电脑运行速度非常快，适合处理大量任务。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "今天是二零二五年一月二一日，我们正在策划一次旅行。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "我的生日在五月五日，那一天通常会有很多活动。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "一年有十二个月，每个月都有不同的节日。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "春节通常会在一月或者二月的某一天到来。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "今天是星期四，我们有一个重要的会议需要参加。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "这个活动从早上八点开始，到下午四点结束。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "昨天晚上七点半的电影让我印象特别深刻。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "每年的夏天，太阳总是要到晚上八点才会下山。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "今天是二零二五年，也是一个值得纪念的年份。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "这个项目需要在下个月的十五号之前完成。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "现在是晚上九点钟，我刚刚完成了一天的工作。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "明天上午十点有一场重要的演讲，不要忘记。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "我们的车次是一二三四次列车，出发时间是下午两点。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "那个古老的钟楼每天中午十二点都会敲响钟声。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "一天有二十四小时，而每一小时都很宝贵。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "吃葡萄不吐葡萄皮，不吃葡萄倒吐葡萄皮。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "八百标兵奔北坡，炮兵并排北坡跑。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "天上七颗星，地上七块饼。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "红鲤鱼与绿鲤鱼与驴。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "黄河远上白云间，一片孤城万仞山。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "力拔山兮气盖世，时不利兮骓不逝。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "白日依山尽，黄河入海流。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "千山鸟飞绝，万径人踪灭。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "举头望明月，低头思故乡。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "春风得意马蹄疾，一日看尽长安花。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "春眠不觉晓，处处闻啼鸟。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "碧玉妆成一树高，万条垂下绿丝绦。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "夜来风雨声，花落知多少。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "少年不识愁滋味，爱上层楼。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "问君能有几多愁，恰似一江春水向东流。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "乱花渐欲迷人眼，浅草才能没马蹄。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "人闲桂花落，夜静春山空。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "欲穷千里目，更上一层楼。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "桃花潭水深千尺，不及汪伦送我情。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "明月松间照，清泉石上流。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "山重水复疑无路，柳暗花明又一村。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "采菊东篱下，悠然见南山。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "疏影横斜水清浅，暗香浮动月黄昏。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "停车坐爱枫林晚，霜叶红于二月花。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "离离原上草，一岁一枯荣。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "这个结果真的让我感到意外，但非常高兴。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "太好了！这真是我今天最好的收获。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "我很抱歉刚刚没有注意到你的问题，请原谅。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "这个故事真是太感人了，我差点流下眼泪。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "我有点紧张，但我相信自己一定能完成任务。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "我觉得这次旅行会非常有趣，你一定要参加。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "成功离不开努力和坚持，我会继续加油。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "那首旋律非常优美，让人觉得特别放松。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "我很想知道接下来的剧情会如何发展。",
+            "is_validation": false
+        },
+        {
+            "reference_text": "这次的经历让我明白了很多，我非常感谢。",
+            "is_validation": false
+        }
+    ]
+}

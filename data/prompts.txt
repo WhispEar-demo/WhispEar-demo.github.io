@@ -1,0 +1,450 @@
+u003  This was easy for us.
+u004  Jane may earn more money by working hard.
+u005  She is thinner than I am.
+u006  Bright sunshine shimmers on the ocean.
+u007  Nothing is as offensive as innocence.
+u008  Why yell or worry over silly items?
+u009  Where were you while we were away?
+u010  Are your grades higher or lower than Nancy's?
+u011  He will allow a rare lie.
+u012  Will Robin wear a yellow lily?
+u013  Swing your arm as high as you can.
+u014  Before Thursday's exam, review every formula.
+u015  The museum hires musicians every evening.
+u016  A roll of wire lay near the wall.
+u017  Carl lives in a lively home.
+u018  Alimony harms a divorced man's wealth.
+u019  Aluminum silverware can often be flimsy.
+u020  She wore warm, fleecy, woolen overalls.
+u021  Alfalfa is healthy for you.
+u022  When all else fails, use force.
+u023  Those musicians harmonize marvelously.
+u024  Although always alone, we survive.
+u025  Only lawyers love millionaires.
+u026  Most young rise early every morning.
+u027  Did dad do academic bidding?
+u028  Beg that guard for one gallon of gas.
+u029  Help Greg to pick a peck of potatoes.
+u030  Get a calico cat to keep.
+u031  A good attitude is unbeatable.
+u032  It's fun to roast marshmallows on a gas burner.
+u033  Coconut cream pie makes a nice dessert.
+u034  Don't do Charlie's dirty dishes.
+u035  Help celebrate your brother's success.
+u036  Only the most accomplished artists obtain popularity.
+u037  Critical equipment needs proper maintenance.
+u038  Young people participate in athletic activities.
+u039  Barb's gold bracelet was a graduation present.
+u040  Stimulating discussions keep students' attention.
+u041  Etiquette mandates compliance with existing regulations.
+u042  Biblical scholars argue history.
+u043  Elderly people are often excluded.
+u044  Basketball can be an entertaining sport.
+u045  Addition and subtraction are learned skills.
+u046  That pickpocket was caught red-handed.
+u047  Mom strongly dislikes appetizers.
+u048  Grandmother outgrew her upbringing in petticoats.
+u049  At twilight on the twelfth day we'll have Chablis.
+u050  Catastrophic economic cutbacks neglect the poor.
+u051  Ambidextrous pickpockets accomplish more.
+u052  Her classical performance gained critical acclaim.
+u053  Even a simple vocabulary contains symbols.
+u054  The eastern coast is a place for pure pleasure and excitement.
+u055  The lack of heat compounded the tenant's grievances.
+u056  Academic aptitude guarantees your diploma.
+u057  The prowler wore a ski mask for disguise.
+u058  We experience distress and frustration obtaining our degrees.
+u059  The singer's finger had a splinter.
+u060  The legislature met to judge the state of public education.
+u061  Chocolate and roses never fail as a romantic gift.
+u062  Any contributions will be greatly appreciated.
+u063  Continental drift is a geological theory.
+u064  Regular attendance is seldom required.
+u065  Challenge each general's intelligence.
+u066  We got drenched from the uninterrupted rain.
+u067  Last year's gas shortage caused steep price increases.
+u068  Upgrade your status to reflect your wealth.
+u069  Eat your raisins outdoors on the porch steps.
+u070  Did you eat yet?
+u071  Porcupines resemble sea urchins.
+u072  Spring Street is straight ahead.
+u073  Cliff's display was misplaced on the screen.
+u074  An official deadline cannot be postponed.
+u075  Fill that canteen with fresh spring water.
+u076  Gently place Jim's foam sculpture in the box.
+u077  Bagpipes and bongos are musical instruments.
+u078  Doctors prescribe drugs too freely.
+u079  Will you please describe the idiotic predicament.
+u080  It's illegal to postdate a check.
+u081  It's impossible to deal with bureaucracy.
+u082  Good service should be rewarded by big tips.
+u083  My instructions desperately need updating.
+u084  Cooperation along with understanding alleviate dispute.
+u085  Cement is measured in cubic yards.
+u086  Hispanic costumes are quite colorful.
+u087  Primitive tribes have an upbeat attitude.
+u088  Flying standby can be practical if you want to save money.
+u089  It's hard to tell an original from a forgery.
+u090  The Thinker is a famous sculpture.
+u091  The misprint provoked an immediate disclaimer.
+u092  A large household needs lots of appliances.
+u093  Cut a small corner off each edge.
+u094  Youngsters love common candy as treats.
+u095  Iguanas and alligators are tropical reptiles.
+u096  Masquerade parties tax one's imagination.
+u097  Penguins live near the icy Antarctic.
+u098  Guess the question from the answer.
+u099  Medieval society was based on hierarchies.
+u100  Project development was proceeding too slowly.
+u101  Kindergarten children decorate their classrooms for all holidays.
+u102  Special task forces rescue hostages from kidnappers.
+u103  Call an ambulance for medical assistance.
+u104  He stole a dime from a beggar.
+u105  You must explicitly delete files.
+u106  A huge tapestry hung in her hallway.
+u107  Birthday parties have cupcakes and ice cream.
+u108  His scalp was blistered from today's hot sun.
+u109  She slipped and sprained her ankle on the steep slope.
+u110  The best way to learn is to solve extra problems.
+u111  His sudden departure shocked the cast.
+u112  Tugboats are capable of hauling huge loads.
+u113  A muscular abdomen is good for your back.
+u114  The cartoon features a muskrat and a tadpole.
+u115  The emblem depicts the Acropolis all aglow.
+u116  Clasp the screw in your left hand.
+u117  The mango and the papaya are in a bowl.
+u118  Combine all the ingredients in a large bowl.
+u119  The misquote was retracted with an apology.
+u120  The coyote, bobcat, and hyena are wild animals.
+u121  Trespassing is forbidden and subject to penalty.
+u122  Encyclopedias seldom present anecdotal evidence.
+u123  A screwdriver is made from vodka and orange juice.
+u124  Objects made of pewter are beautiful.
+u125  Westchester is a county in New York.
+u126  Artificial intelligence is for real.
+u127  The emperor had a mean temper.
+u128  Lots of foreign movies have subtitles.
+u129  Angora cats are furrier than Siamese.
+u130  He ate four extra eggs for breakfast.
+u131  We plan to build a new beverage plant.
+u132  Publicity and notoriety go hand in hand.
+u133  Pizzerias are convenient for a quick lunch.
+u134  December and January are nice months to spend in Miami.
+u135  Technical writers can abbreviate in bibliographies.
+u136  Scientific progress comes from the development of new techniques.
+u137  Tradition requires parental approval for under-age marriage.
+u138  The clumsy customer spilled some expensive perfume.
+u139  The bungalow was pleasantly situated near the shore.
+u140  Agricultural products are unevenly distributed.
+u141  Pledge to participate in Nevada's aquatic competition.
+u142  Which long article was opaque and needed clarification?
+u143  The sound of Jennifer's bugle scared the antelope.
+u144  The willowy woman wore a muskrat coat.
+u145  Too much curiosity can get you into trouble.
+u146  Cyclical programs will never compile.
+u147  Correct execution of my instructions is crucial.
+u148  Most precincts had a third of the votes counted.
+u149  While waiting for Chipper she crisscrossed the square many times.
+u150  Vietnamese cuisine is exquisite.
+u151  The previous speaker presented ambiguous results.
+u152  Mosquitoes exist in warm, humid climates.
+u153  Scholastic aptitude is judged by standardized tests.
+u154  Orange juice tastes funny after toothpaste.
+u155  The water contained too much chlorine and stung his eyes.
+u156  Our experiment's positive outcome was unexpected.
+u157  Remove the splinter with a pair of tweezers.
+u158  The drunkard is a social outcast.
+u159  The government sought authorization of his citizenship.
+u160  As coauthors, we presented our new book to the haughty audience.
+u161  As a precaution, the outlaws bought gunpowder for their stronghold.
+u162  Her auburn hair reminded him of autumn leaves.
+u163  They remained lifelong friends and companions.
+u164  Curiosity and mediocrity seldom coexist.
+u165  The easygoing zoologist relaxed throughout the voyage.
+u166  Biologists use radioactive isotopes to study microorganisms.
+u167  Employee layoffs coincided with the company's reorganization.
+u168  Who took the kayak down the bayou?
+u169  How would you evaluate this algebraic expression?
+u170  The Mayan neoclassic scholar disappeared while surveying ancient ruins.
+u171  The diagnosis was discouraging; however, he was not overly worried.
+u172  The triumphant warrior exhibited naive heroism.
+u173  Whoever cooperates in finding Nan's cameo will be rewarded.
+u174  The haunted house was a hit due to outstanding audio-visual effects.
+u175  Severe myopia contributed to Ron's inferiority complex.
+u176  Buying a thoroughbred horse requires intuition and expertise.
+u177  Does Creole cooking use curry?
+u178  She encouraged her children to make their own Halloween costumes.
+u179  We could barely see the fjords through the snow flurries.
+u180  Almost all colleges are now coeducational.
+u181  Rich looked for spotted hyenas and jaguars on the safari.
+u182  Thick glue oozed out of the tube.
+u183  Why else would Danny allow others to go?
+u184  The cat's meow always hurts my ears.
+u185  Did you buy any corduroy overalls?
+u186  Would a tomboy often play outdoors?
+u187  They often go out in the evening.
+u188  Who authorized the unlimited expense account?
+u189  Destroy every file related to my audits.
+u190  Serve the coleslaw after I add the oil.
+u191  Withdraw all phony accusations at once.
+u192  Straw hats are out of fashion this year.
+u193  Why buy oil when you always use mine?
+u194  They enjoy it when I audition.
+u195  Would you allow acts of violence?
+u196  How do oysters make pearls?
+u197  Draw each graph on a new axis.
+u198  Norwegian sweaters are made of lamb's wool.
+u199  Young children should avoid exposure to contagious diseases.
+u200  Ralph controlled the stopwatch from the bleachers.
+u201  Approach your interview with statuesque composure.
+u202  How much allowance do you get?
+u203  The causeway ended abruptly at the shore.
+u204  Even I occasionally get the Monday blues!
+u205  Military personnel are expected to obey government orders.
+u206  When peeling an orange, it is hard not to spray juice.
+u207  Do you hear the sleigh bells ringing?
+u208  Rob sat by the pond and sketched the stray geese.
+u209  Michael colored the bedroom wall with crayons.
+u210  Jeff's toy go-cart never worked!
+u211  Only the best players enjoy popularity.
+u212  I gave them several choices and let them set the priorities.
+u213  The news agency hired a great journalist.
+u214  The morning dew on the spider web glistened in the sun.
+u215  The sermon emphasized the need for affirmative action.
+u216  The small boy put the worm on the hook.
+u217  How permanent are their records?
+u218  Try to recall the events in chronological order.
+u219  Nonprofit organizations have frequent fund raisers.
+u220  The most recent geological survey found seismic activity.
+u221  Cory attacked the project with extra determination.
+u222  You always come up with pathological examples.
+u223  Put the butcher block table in the garage.
+u224  How good is your endurance?
+u225  Keep the thermometer under your tongue!
+u226  Steph could barely handle the psychological trauma.
+u227  It's healthier to cook without sugar.
+u228  The viewpoint overlooked the ocean.
+u229  Are you looking for employment?
+u230  Allow leeway here, but rationalize all errors.
+u231  I honor my mom.
+u232  His failure to open the store by eight cost him his job.
+u233  Highway and freeway mean the same thing.
+u234  The paper boy bought two apples and three ices.
+u235  I itemize all accounts in my agency.
+u236  Clear pronunciation is appreciated.
+u237  The courier was a dwarf.
+u238  A doctor was in the ambulance with the patient.
+u239  Puree some fruit before preparing the skewers.
+u240  It's not easy to create illuminating examples.
+u241  The hallway opens into a huge chamber.
+u242  May I order a strawberry sundae after I eat dinner?
+u243  They all agree that the essay is barely intelligible.
+u244  Herb's birthday occurs frequently on Thanksgiving.
+u245  Does Hindu ideology honor cows?
+u246  How ancient is this subway escalator?
+u247  The cigarettes in the clay ashtray overflowed onto the oak table.
+u248  Reading in poor light gives you eyestrain.
+u249  I ate every oyster on Nora's plate.
+u250  The Boston Ballet overcame their funding shortage.
+u251  We apply auditory modeling to computer speech recognition.
+u252  The gorgeous butterfly ate a lot of nectar.
+u253  By eating yogurt, you may live longer.
+u254  Do they allow atheists in church?
+u255  My ideal morning begins with hot coffee.
+u256  The irate actor stomped away idiotically.
+u257  We are open every Monday evening.
+u258  The essay undeniably reflects our view ably.
+u259  Tornados often destroy acres of farm land.
+u260  Remember to allow identical twins to enter freely.
+u261  Do you have the yellow ointment ready?
+u262  Can the agency overthrow alien forces?
+u263  How oily do you like your salad dressing?
+u264  We saw eight tiny icicles below our roof.
+u265  The saw is broken, so chop the wood instead.
+u266  Withdraw only as much money as you need.
+u267  Draw every outer line first, then fill in the interior.
+u268  The jaw operates by using antagonistic muscles.
+u269  Do atypical farmers grow oats?
+u270  Are holiday aprons available to us?
+u271  Be careful not to plow over the flower beds.
+u272  Allow each child to have an ice pop.
+u273  The angry boy answered but didn't look up.
+u274  Cliff was soothed by the luxurious massage.
+u275  Steve wore a bright red cashmere sweater.
+u276  John's brother repainted the garage door.
+u277  The rose corsage smelled sweet.
+u278  To further his prestige, he occasionally reads the Wall Street Journal.
+u279  Alice's ability to work without supervision is noteworthy.
+u280  The oasis was a mirage.
+u281  Cory and Trish played tag with beach balls for hours.
+u282  The tooth fairy forgot to come when Roger's tooth fell out.
+u283  Planned parenthood organizations promote birth control.
+u284  Jeff thought you argued in favor of a centrifuge purchase.
+u285  Rich purchased several signed lithographs.
+u286  In every major cloverleaf, traffic sometimes gets backed up.
+u287  In the long run, it pays to buy quality clothing.
+u288  Brush fires are common in the dry underbrush of Nevada.
+u289  Weatherproof galoshes are very useful in Seattle.
+u290  This brochure is particularly informative for a prospective buyer.
+u291  The avalanche triggered a minor earthquake.
+u292  These exclusive documents must be locked up at all times.
+u293  Please take this dirty table cloth to the cleaners for me.
+u294  Should giraffes be kept in small zoos?
+u295  If Carol comes tomorrow, have her arrange for a meeting at two.
+u296  The two artists exchanged autographs.
+u297  Rock-and-roll music has a great rhythm.
+u298  I'd rather not buy these shoes than be overcharged.
+u299  Shaving cream is a popular item on Halloween.
+u300  Amoebas change shape constantly.
+u301  We like bleu cheese but Victor prefers swiss cheese.
+u302  Tofu is made from processed soybeans.
+u303  The bluejay flew over the high building.
+u304  Cheap stockings run the first time they're worn.
+u305  Cottage cheese with chives is delicious.
+u306  A chosen few will become Generals.
+u307  The meeting is now adjourned.
+u308  Shipbuilding is a most fascinating process.
+u309  The proof that you are seeking is not available in books.
+u310  The hood of the jeep was steaming in the hot sun.
+u311  My desires are simple: give me one informative paragraph on the subject.
+u312  Those answers will be straightforward if you think them through carefully first.
+u313  Drop five forms in the box before you go out.
+u314  If people were more generous, there would be no need for welfare.
+u315  Bob found more clams at the ocean's edge.
+u316  That dog chases cats mercilessly.
+u317  The cranberry bog gets very pretty in Autumn.
+u318  Please dig my potatoes up before frost.
+u319  A big goat idly ambled through the farmyard.
+u320  The nearest synagogue may not be within walking distance.
+u321  The groundhog clearly saw his shadow, but stayed out only a moment.
+u322  A leather handbag would be a suitable gift.
+u323  The fog prevented them from arriving on time.
+u324  The local drugstore was charged with illegally dispensing tranquilizers.
+u325  The full moon shone brightly that night.
+u326  Steve collects rare and novel coins.
+u327  Al received a joint appointment in the biology and engineering departments.
+u328  Gregory and Tom chose to watch cartoons in the afternoon.
+u329  Chip postponed alimony payments until the latest possible date.
+u330  Count the number of teaspoons of soysauce that you add.
+u331  The big dog loved to chew on the old rag doll.
+u332  Todd placed top priority on getting his bike fixed.
+u333  An adult male baboon's teeth are not suitable for eating shellfish.
+u334  Often you'll get back more than you put in.
+u335  Gus saw pine trees and redwoods on his walk through Sequoia National Forest.
+u336  Rob made Hungarian goulash for dinner and gooseberry pie for dessert.
+u337  Bob bandaged both wounds with the skill of a doctor.
+u338  The dark, murky lagoon wound around for miles.
+u339  Did Shawn catch that big goose without help?
+u340  Ducks have webbed feet and colorful feathers.
+u341  The high security prison was surrounded by barbed wire.
+u342  Take charge of choosing her bride's maids' gowns.
+u343  The frightened child was gently subdued by his big brother.
+u344  I know I didn't meet her early enough.
+u345  Trish saw hours and hours of movies Saturday.
+u346  The barracuda recoiled from the serpent's poisonous fangs.
+u347  The patient and the surgeon are both recuperating from the lengthy operation.
+u348  I'll have a scoop of that exotic purple and turquoise sherbet.
+u349  The preschooler couldn't verbalize her feelings about the emergency conditions.
+u350  Many wealthy tycoons splurged and bought both a yacht and a schooner.
+u351  The new suburbanites worked hard on refurbishing their older home.
+u352  According to my interpretation of the problem, two lines must be perpendicular.
+u353  A connoisseur will enjoy this shellfish dish.
+u354  A lawyer was appointed to execute her will.
+u355  Dolphins are intelligent marine mammals.
+u356  Diane may splurge and buy a turquoise necklace.
+u357  The moisture in my eyes is from eyedrops, not from tears.
+u358  George seldom watches daytime movies.
+u359  The system may break down soon, so save your files frequently.
+u360  I assume moisture will damage this ship's hull.
+u361  The speech symposium might begin Monday.
+u362  The annoying raccoons slipped into Phil's garden every night.
+u363  The cow wandered from the farmland and became lost.
+u364  Each untimely income loss coincided with the breakdown of a heating system part.
+u365  The gunman kept his victim cornered at gunpoint for three hours.
+u366  Would you please confirm government policy regarding waste removal?
+u367  The surplus shoes were sold at a discount price.
+u368  Lori's costume needed black gloves to be completely elegant.
+u369  Bob papered over living room murals.
+u370  That noise problem grows more annoying each day.
+u371  Right now may not be the best time for business mergers.
+u372  That diagram makes sense only after much study.
+u373  A boring novel is a superb sleeping pill.
+u374  John cleans shellfish for a living.
+u375  Growing well-kept gardens is very time consuming.
+u376  Women may never become completely equal to men.
+u377  She always jokes about too much garlic in his food.
+u378  I just saw Jim near the new archeological museum.
+u379  Pam gives driving lessons on Thursdays.
+u380  Why charge money for such garbage?
+u381  We welcome many new students each year.
+u382  George is paranoid about a future gas shortage.
+u383  The carpet cleaners shampooed our oriental rug.
+u384  Please shorten this skirt for Joyce.
+u385  His shoulder felt as if it were broken.
+u386  Which church do the Smiths worship in?
+u387  The giant redwoods shimmered in the glistening sun.
+u388  Her right hand aches whenever the barometric pressure changes.
+u389  They own a big house in the remote countryside.
+u390  He picked up nine pairs of socks for each brother.
+u391  They all like long hot showers.
+u392  A young mouse scampered across the field and disappeared.
+u393  She uses both names interchangeably.
+u394  Calcium makes bones and teeth strong.
+u395  I took her word for it, but is she really going with you?
+u396  The fish began to leap frantically on the surface of the small lake.
+u397  Tim takes Sheila to see movies twice a week.
+u398  Children can consume many fruit candies in one sitting.
+u399  They assume no burglar will ever enter here.
+u400  Just drop notices in any suggestion box.
+u401  The taxicab broke down and caused a traffic jam.
+u402  We'll serve rhubarb pie after Rachel's talk.
+u403  Her wardrobe consists of only skirts and blouses.
+u404  Barb burned paper and leaves in a big bonfire.
+u405  Of course you can have another tunafish sandwich.
+u406  There was a gigantic wasp next to Irving's big top hat.
+u407  Laugh, dance, and sing if fortune smiles upon you.
+u408  I'd ride the subway, but I haven't enough change.
+u409  Eating spinach nightly increases strength miraculously.
+u410  Greg buys fresh milk each weekday morning.
+u411  Butterscotch fudge goes well with vanilla ice cream.
+u412  Gwen planted green beans in her vegetable garden.
+u413  Daphne's Swedish needlepoint scarf matched her skirt.
+u414  Irish youngsters eat fresh kippers for breakfast.
+u415  Move the garbage nearer to the large window.
+u416  A huge power outage rarely occurs.
+u417  Valley Lodge yearly celebrates the first calf born.
+u418  Iris thinks this zoo has eleven Spanish zebras.
+u419  The football team coach has a watch thin as a dime.
+u420  Seamstresses attach zippers with a thimble, needle, and thread.
+u421  Those who teach values first abolish cheating.
+u422  Once you finish greasing your chain, be sure to wash thoroughly.
+u423  Smash lightbulbs and their cash value will diminish to nothing.
+u424  Top zinnias rarely have crooked stems.
+u425  Movies never have enough villains.
+u426  A moth zig-zagged along the path through Otto's garden.
+u427  Every cab needs repainting often.
+u428  A crab challenged me, but a quick stab vanquished him.
+u429  A toothpaste tube should be squeezed from the bottom.
+u430  Those who are not purists use canned vegetables when making stew.
+u431  The fifth jar contains big, juicy peaches.
+u432  Coffee is grown on steep, jungle-like slopes in temperate zones.
+u433  The overweight charmer could slip poison into anyone's tea.
+u434  Each stag surely finds a big fawn.
+u435  The rich should invest in black zircons instead of stylish shoes.
+u436  Please sing just the club theme.
+u437  They used an aggressive policeman to flag thoughtless motorists.
+u438  Shell shock caused by shrapnel is sometimes cured through group therapy.
+u439  That stinging vapor was caused by chloride vaporization.
+u440  The advertising verse of Plymouth Variety Store never changes.
+u441  Don't look for group valuables in a bank vault.
+u442  Suburban housewives often suffer from the gab habit.
+u443  A lone star shone in the early evening sky.
+u444  The toddler found a clamshell near the camp site.
+u445  What is this large thing by the ironing board?
+u446  Thomas thinks a larger clamp solves the problem.
+u447  First add milk to the shredded cheese.
+u448  Spherical gifts are difficult to wrap.
+u449  Ralph prepared red snapper with fresh lemon sauce for dinner.
+u450  Roy ignored the spurious data points in drawing the graph.
+u451  The thick elm forest was nearly overwhelmed by Dutch Elm Disease.
+u452  In developing film, many toxic chemicals are used.

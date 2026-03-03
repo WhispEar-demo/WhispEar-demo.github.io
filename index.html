@@ -116,19 +116,19 @@
               <a href="#home" class="list-select"><b>Home</b></a>
             </li>
             <li>
-              <a href="#tts" class="list-select"><b>TTS</b></a>
+              <a href="#w2n-en" class="list-select"><b>W2N-EN</b></a>
             </li>
             <li>
-              <a href="#melody" class="list-select"><b>Melody Control</b></a>
+              <a href="#melody" class="list-select"><b>W2N-CN</b></a>
             </li>
             <li>
-              <a href="#editing" class="list-select"><b>Editing</b></a>
+              <a href="#editing" class="list-select"><b>N2W-EN</b></a>
             </li>
             <li>
-              <a href="#vc" class="list-select"><b>VC and SVC</b></a>
+              <a href="#vc" class="list-select"><b>N2W-CN</b></a>
             </li>
             <li>
-              <a href="#sc" class="list-select"><b>Style Conversion</b></a>
+              <a href="#vc" class="list-select"><b>wEar-Dataset</b></a>
             </li>
 
           </ul>
@@ -141,7 +141,7 @@
     <div class="p-5 md:p-0 mt-16 max-w-screen-xl mx-auto">
       <div class="p-6" id="home">
         <div class="mt-8 mb-8">
-          <h1>WhispEar: Bi-directional Whispered Speech Conversion via Semantic Alignment and A Parallel Dataset</h1>
+          <h1>WhispEar: A Bi-directional Framework for Scaling Whispered Speech Conversion via Pseudo-Parallel Whisper Generation</h1>
         </div>
 
 
@@ -149,27 +149,17 @@
           <div class="max-w-[900px] mx-auto mt-8 mb-16">
             <h2>Abstract</h2>
             <p class="text-p">
-              Whispered speech, characterized by its soft and breathy qualities, is common in semi-silent communication and among patients with glottal impairments. Yet, whisper-to-normal voice conversion (W2N) remains difficult due to the lack of vocal cord vibrations, weakened phonetic cues, and shifted formant structures. 
-              We present WhispEar, a bi-directional whispered speech conversion framework based on semantic alignment, consisting of WhispEar-w2n (whisper-to-normal) and WhispEar-n2w (normal-to-whisper). WhispEar-w2n significantly outperforms existing methods in terms of speech naturalness, intelligibility, and speaker similarity, achieving high-quality W2N conversion; WhispEar-n2w further enables zero-shot whisper synthesis, facilitating the creation of large-scale pseudo-parallel datasets that enhance W2N performance. To foster progress in this field, we release the largest Chinese whisper–normal parallel corpus with broad speaker coverage. Experimental results show that WhispEar surpasses all baselines, and the pseudo-parallel data is both effective and high quality.
-            </p>
+              Whispered speech lacks fundamental frequency due to the missing vibration of the vocal fold and periodic excitation, leading to degraded acoustic cues. This makes it challenging to recover timbre-preserved natural speech from whispered speech. Existing Whisper-to-Normal (W2N) methods rely heavily on parallel data, while such data are extremely scarce. Semantic representations perform strongly in the Text-to-Speech area. We observe that despite large acoustic discrepancies between whispered and normal speech, their high semantic similarity allows mutual conversion between them. Motivated by this, we propose <b>WhispEar</b>, a bidirectional framework supporting W2N and N2W tasks. The N2W module allows generating high-quality pseudo-whisper data using large-scale speech datasets. Experiments show that WhispEar significantly outperforms baselines. In addition, we release <b>wEar</b>, which is the largest bilingual dataset(CN-EN) in this field to date. Its effectiveness is further validated through ablation experiments.
           </div>
 
           <div class="mt-8 mb-8" id="gallery">
             <h4>What can WhispEar do?</h4>
             <p>
-              <b><i>WhispEar</i></b> is a <u>versa</u>tile and controllable <u>voice</u> generation framework designed
-              to
-              unify speech and singing voice. It
-              consists of an auto-regressive (AR) content-style modeling stage, which aims to enable
-              controllability over text, prosody, and style, as well as a flow-matching (FM) acoustic modeling stage
-              that
-              allows for timbre control. It is able to support versatile synthesis, conversion, and editing tasks
-              through a unified
-              inference pipeline.
+              <b>WhispEar</b> is a scalable bidirectional whispered speech conversion framework. It supports high-quality whisper-to-normal and normal-to-whisper conversion in both English and Chinese. By learning unified semantic representations shared across speaking modes, WhispEar achieves stable zero-shot conversion and enables large-scale pseudo-parallel data generation. The system is designed not only for high-quality voice reconstruction, but also for studying scalability in whispered speech modeling.
             </p>
 
             <div class="flex mx-auto justify-center max-w-screen-lg py-8">
-              <img src="static/pipeline.png"></img>
+              <img src="static/total.png" style="width: 800px; height: auto;" alt=""></img>
             </div>
             <!-- <div class="flex mx-auto justify-center max-w-screen-lg py-8">
               <img src="static/supported_tasks.png"></img>
@@ -180,17 +170,13 @@
             We will showcase WhispEar's capabilities through the following examples.
           </div>
 
-          <div class="mt-0 mb-8 pt-10" id="tts">
-            <h5>Extend Zero-Shot TTS to Singing Voice Domain</h5>
+          <div class="mt-0 mb-8 pt-10" id="w2n-en">
+            <h5>Zero-shot Whisper-to-Normal Conversion (English)</h5>
           </div>
 
           <div class="mt-8 mb-8">
             <p class="mt-4 text-base">
-              Under the standard zero-shot text-to-speech (TTS) inference pipeline, WhispEar extends its support
-              beyond speech data to <i>include singing voice data as reference prompts</i>,
-              which we define as the <b>text-to-singing</b> task. Notably, even without explicit prosodic contour
-              control (i.e., without using a prosodic source), the synthesized output could follow and extend
-              the reference's melodic pattern, demonstrating melody imitation or continuation.
+              In this section, we present zero-shot whisper-to-normal (W2N) conversion results on unseen English speakers. Given whispered input without pitch information, WhispEar reconstructs natural-sounding normal speech with stable prosody and improved intelligibility. Even under limited paired training data, the model maintains consistent performance, demonstrating strong robustness and generalization.
             </p>
           </div>
 
@@ -199,117 +185,123 @@
               <table class="table-gallery">
                 <thead>
                   <tr>
-                    <th style="text-align: center; width: 9%;">Task</th>
-                    <th style="text-align: center; width: 22%;">Target Text</th>
-                    <!-- <th style="text-align: center; width: 10%;">Prosodic Source</th> -->
-                    <th style="text-align: center; width: 23%;">Style Reference</th>
-                    <th style="text-align: center; width: 23%;">Timbre Reference</th>
-                    <th style="text-align: center; width: 23%;">Results</th>
+                    <th style="text-align: center; width: 15%;">Whispered Input</th>
+                    <th style="text-align: center; width: 15%;">Normal GT</th>
+                    <th style="text-align: center; width: 10%;">Reference Text</th>
+                    <th style="text-align: center; width: 15%;">WESPER</th>
+                    <th style="text-align: center; width: 15%;">MaskCycleGAN</th>
+                    <th style="text-align: center; width: 15%;">CosyVoice2</th>
+                    <th style="text-align: center; width: 15%;">WhispEar(Ours)</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td style="background-color: #f4f4f4;" rowspan="2">
-                      <b>Text to Speech</b>
-                    </td>
-                    <td>
-                      In just a heartbeat, I can traverse oceans, cross mountains, and explore cities that I've only
-                      dreamed of.
-                    </td>
-                    <!-- <td rowspan="4">
-                      /
-                    </td> -->
-                    <td colspan="2">
-                      <audio controls preload="auto">
-                        <source src="data/gallery/tts_ref.wav">
-                      </audio>
-                      <!-- Who would've imagined that people could really turn into water... -->
-                      <!-- <i><span class="text-blue-500">High-pitched</span>, -->
-                    </td>
                     <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/tts_gen.wav">
+                        <source src="data/w2n_en/whsp_0_fixed.wav">
                       </audio>
                     </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      I've been a silent spectator, watching species evolve, empires rise and fall. But always remember,
-                      I am mighty and enduring. Respect me and I'll nurture you; ignore me and you shall face the
-                      consequences.
-                    </td>
-
                     <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/disentangledtts_accent_ref.wav">
+                        <source src="data/w2n_en/norm_0_fixed.wav">
                       </audio>
-                      <span class="text-blue-500">Hindi-accented</span>, Male
+                    </td>
+                    <td>
+                      A lawyer was appointed to execute her will.
                     </td>
                     <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/disentangledtts_timbre_ref.wav">
+                        <source src="data/w2n_en/wesper_0.wav">
                       </audio>
-                      Mandarin, <span class="text-red-500">Female</span>
                     </td>
                     <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/disentangledtts_gen.wav">
+                        <source src="data/w2n_en/maskgan_0.WAV">
                       </audio>
-                      <span class="text-blue-500">Hindi-accented</span>, <span class="text-red-500">Female</span>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td style="background-color: #f4f4f4;" rowspan="2">
-                      <b>Text to Singing</b>
                     </td>
                     <td>
-                      Don't forget me, I'm calling your name. I remember you said, love's not always the same.
-                    </td>
-
-                    <td colspan="2">
                       <audio controls preload="auto">
-                        <source src="data/gallery/adele_raw.wav">
+                        <source src="data/w2n_en/cosyvoice_0.WAV">
                       </audio>
-                      Adele (British singer)
                     </td>
                     <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/ttsing_adele_gen.wav">
+                        <source src="data/w2n_en/whispear_0.WAV">
                       </audio>
                     </td>
                   </tr>
 
                   <tr>
                     <td>
-                      我皱着眉头，感受着那份压力，但我知道我不能放弃，不能认输。于是，我深吸一口气，心底的声音告诉我
-                    </td>
-
-                    <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/jaychou.wav">
+                        <source src="data/w2n_en/whsp_1_fixed.wav">
                       </audio>
-                      周杰伦 (Chinese singer)
                     </td>
                     <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/taiyizhenren.wav">
+                        <source src="data/w2n_en/norm_1_fixed.wav">
                       </audio>
-                      太乙真人 (Chinese animated character)
+                    </td>
+                    <td>
+                      Eat your raisins outdoors on the porch steps.
                     </td>
                     <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/ttsing_gen.wav">
+                        <source src="data/w2n_en/wesper_1.wav">
                       </audio>
-                      <br>
-                      <i>When feeding this generated result into an external singing-to-song system:</i>
+                    </td>
+                    <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/ttsing_sing2song.wav">
+                        <source src="data/w2n_en/maskgan_1.WAV">
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/w2n_en/cosyvoice_1.WAV">
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/w2n_en/whispear_1.WAV">
                       </audio>
                     </td>
                   </tr>
 
+                  <tr>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/w2n_en/whsp_2_fixed.wav">
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/w2n_en/norm_2_fixed.wav">
+                      </audio>
+                    </td>
+                    <td>
+                      Are your grades higher or lower than Nancy's?
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/w2n_en/wesper_2.wav">
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/w2n_en/maskgan_2.WAV">
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/w2n_en/cosyvoice_2.WAV">
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/w2n_en/whispear_2.WAV">
+                      </audio>
+                    </td>
+                  </tr>
 
                 </tbody>
               </table>
@@ -325,16 +317,12 @@
 
 
           <div class="mt-0 mb-8 pt-10" id="melody">
-            <h5>Versatile Melody Controls for Singing Voice Generation</h5>
+            <h5>Zero-shot Whisper-to-Normal Conversion (Chinese)</h5>
           </div>
 
           <div class="mt-8 mb-8">
             <p class="mt-4 text-base">
-              WhispEar provides supports for <i>using an explicit prosodic source to control the prosody/melody of the
-                synthesized output</i>. Particularly, it accommodates various forms of prosodic sources, including
-              <b>general speech and singing voice</b> (as demonstrated in the subsequent section of editing tasks),
-              <b>whistle sounds</b> (the first case of the following table), <b>humming voices</b> (the second case),
-              and even <b>instrumental musical sounds</b> (the last two cases).
+              We further evaluate zero-shot W2N conversion on Mandarin Chinese. Whispered Mandarin poses additional challenges due to tonal information loss. Despite missing pitch cues, WhispEar successfully restores natural tonal contours and preserves linguistic content. The results show that our unified semantic modeling effectively generalizes across languages and speaking modes.
             </p>
           </div>
 
@@ -344,140 +332,120 @@
               <table class="table-gallery">
                 <thead>
                   <tr>
-                    <th style="text-align: center; width: 9%;">Task</th>
-                    <th style="text-align: center; width: 22%;">Target Text</th>
-                    <th style="text-align: center; width: 24%;">Prosodic Source</th>
-                    <th style="text-align: center; width: 12%;">Style Reference</th>
-                    <th style="text-align: center; width: 12%;">Timbre Reference</th>
-                    <th style="text-align: center; width: 21%;">Results</th>
+                    <th style="text-align: center; width: 15%;">Whispered Input</th>
+                    <th style="text-align: center; width: 15%;">Normal GT</th>
+                    <th style="text-align: center; width: 10%;">Reference Text</th>
+                    <th style="text-align: center; width: 15%;">WESPER</th>
+                    <th style="text-align: center; width: 15%;">MaskCycleGAN</th>
+                    <th style="text-align: center; width: 15%;">CosyVoice2</th>
+                    <th style="text-align: center; width: 15%;">WhispEar(Ours)</th>
                   </tr>
                 </thead>
                 <tbody>
-
                   <tr>
-                    <td style="background-color: #f4f4f4;" rowspan="2">
-                      <b>Humming to Singing</b>
-                    </td>
-                    <td>
-                      Moonlight dancing through the starry sky. Snowflakes falling in the winter night.
-                    </td>
                     <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/whistle_melody.wav">
+                        <source src="data/w2n_zh/whsp_0.wav">
                       </audio>
-                      Whistle sound
-                      <br>
-                      <span class="text-gray-400 text-xs">
-                        (<b>Melody</b>: <a href="https://www.youtube.com/watch?v=h5sP4JW0yDA"
-                          class="!text-gray-400 no-underline hover:!text-gray-700">the
-                          theme
-                          song of A Fistful
-                          of Dollars</a>)
-                      </span>
-                      <br>
-
-                    </td>
-                    <td colspan="2">
-                      <audio controls preload="auto">
-                        <source src="data/gallery/adele_raw.wav">
-                      </audio>
-                      Adele (British singer)
                     </td>
                     <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/whistle_adele_gen.wav">
+                        <source src="data/w2n_zh/norm_0.wav">
+                      </audio>
+                    </td>
+                    <td>
+                      今天的天气特别晴朗，我想去河边散步。
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/w2n_zh/wesper_0.wav">
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/w2n_zh/maskgan_0.wav">
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/w2n_zh/cosyvoice_0.wav">
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/w2n_zh/whispear_0.wav">
                       </audio>
                     </td>
                   </tr>
 
                   <tr>
                     <td>
-                      你是我的小呀小苹果，怎么爱，不嫌多
+                      <audio controls preload="auto">
+                        <source src="data/w2n_zh/whsp_1.wav">
+                      </audio>
                     </td>
                     <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/humming_alisi.wav">
+                        <source src="data/w2n_zh/norm_1.wav">
                       </audio>
-                      Humming sound
-                      <br>
-                      <span class="text-gray-400 text-xs">
-                        (<b>Melody</b>: <a href="https://www.youtube.com/watch?v=q9bU12gXUyM"
-                          class="!text-gray-400 no-underline hover:!text-gray-700">Beethoven - Für
-                          Elise</a>)
-                      </span>
                     </td>
-                    <td colspan="2">
-                      <audio controls preload="auto">
-                        <source src="data/gallery/taiyizhenren.wav">
-                      </audio>
-                      太乙真人 (Chinese animated character)
+                    <td>
+                      周末的时间总是过得很快，感觉刚开始就结束了。
                     </td>
                     <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/humming_alisi_gen.wav">
+                        <source src="data/w2n_zh/wesper_1.wav">
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/w2n_zh/maskgan_1.wav">
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/w2n_zh/cosyvoice_1.wav">
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/w2n_zh/whispear_1.wav">
                       </audio>
                     </td>
                   </tr>
 
                   <tr>
-                    <td style="background-color: #f4f4f4;" rowspan="2">
-                      <b>Instrument to Singing</b>
-                    </td>
-                    <td>
-                      It's always just me facing the sky, my mind roaming freely like the clouds.
-                    </td>
                     <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/svs_melody.wav">
-                      </audio>
-                      <!-- To include the midi pic -->
-                      Piano sound (rendered from MIDI)
-                      <br>
-                      <span class="text-gray-400 text-xs">
-                        (<b>Melody</b>: <a href="https://www.youtube.com/watch?v=mRKTOZmX2cE"
-                          class="!text-gray-400 no-underline hover:!text-gray-700">罗大佑 - 童年</a>)
-                      </span>
-                    </td>
-                    <td colspan="2">
-                      <audio controls preload="auto">
-                        <source src="data/gallery/adele_raw.wav">
-                      </audio>
-                      Adele (British singer)
-                    </td>
-                    <td>
-                      <audio controls preload="auto">
-                        <source src="data/gallery/svs_adele_gen.wav">
+                        <source src="data/w2n_zh/whsp_2.wav">
                       </audio>
                     </td>
-                  </tr>
-
-
-                  <tr>
-
-                    <td>
-                      朝霞染红天际，暖阳依旧，新希望
-                    </td>
                     <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/humming_taiyang_melody_raw.wav">
+                        <source src="data/w2n_zh/norm_2.wav">
                       </audio>
-                      Trumpet sound (real recordings)
-                      <br>
-                      <span class="text-gray-400 text-xs">
-                        (<b>Melody</b>: <a href="https://www.youtube.com/watch?v=IYU-BgtSwJk"
-                          class="!text-gray-400 no-underline hover:!text-gray-700">Joe Hisaishi - The Sun Also
-                          Rises</a>)
-                      </span>
                     </td>
-                    <td colspan="2">
-                      <audio controls preload="auto">
-                        <source src="data/gallery/sunyanzi.wav">
-                      </audio>
-                      孙燕姿 (Chinese singer)
+                    <td>
+                      请问从这里走到公园需要多长时间？
                     </td>
                     <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/humming_taiyang_gen.wav">
+                        <source src="data/w2n_zh/wesper_2.wav">
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/w2n_zh/maskgan_2.wav">
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/w2n_zh/cosyvoice_2.wav">
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/w2n_zh/whispear_2.wav">
                       </audio>
                     </td>
                   </tr>
@@ -496,17 +464,12 @@
           </div>
 
           <div class="mt-0 mb-8 pt-10" id="editing">
-            <h5>Prosody-preserved Speech and Singing Lyric Editing</h5>
+            <h5>Zero-shot Normal-to-Whisper Conversion (English)</h5>
           </div>
 
           <div class="mt-8 mb-8">
             <p class="mt-4 text-base">
-              For editing tasks, WhispEar not only demonstrates superior performance in synthesized audio naturalness
-              but also effectively <b>preserves the original prosody and melody</b>. For instance, in singing lyric
-              editing
-              tasks (the last four cases of the following table), WhispEar enables selective modification of lyrics
-              while maintaining the original melodic contour
-              of the singing voice.
+              WhispEar also supports zero-shot normal-to-whisper (N2W) synthesis. Given normal English speech, the model generates realistic whispered speech while preserving speaker characteristics and linguistic content. This direction is crucial for scalable pseudo-parallel data generation, enabling the creation of large whispered datasets without manual recording.
             </p>
           </div>
 
@@ -676,16 +639,12 @@
           </div>
 
           <div class="mt-0 mb-8 pt-10" id="vc">
-            <h5>Unified Zero-Shot VC and SVC</h5>
+            <h5>Zero-shot Normal-to-Whisper Conversion (Chinese)</h5>
           </div>
 
           <div class="mt-8 mb-8">
             <p class="mt-4 text-base">
-              To conduct voice conversion (VC) or singing voice
-              conversion (SVC) tasks, WhispEar exhibits two distinctive
-              characteristics. First, WhispEar uses a <b>unified content-style tokenizer</b> both speech and singing
-              voice domains. Second, WhispEar supports both <b>style-preserved</b> and <b>style-converted
-                conversion</b> tasks:
+              We additionally demonstrate zero-shot N2W conversion in Mandarin Chinese. The generated whispered speech exhibits stable articulation and natural spectral characteristics, closely matching real whispered recordings. These results confirm that the learned semantic representation remains consistent across languages and supports high-quality bidirectional conversion.
             </p>
 
             <ul class="flex flex-col space-y-4 list-disc pl-6 text-base text-gray-700">
@@ -819,15 +778,12 @@
 
 
           <div class="mt-0 mb-8 pt-10" id="sc">
-            <h5>Versatile Speech and Singing Style Conversions</h5>
+            <h5>wEar Dataset and Scalability Analysis</h5>
           </div>
 
           <div class="mt-8 mb-8">
             <p class="mt-4 text-base">
-              WhispEar enables versatile speech and singing style conversion tasks. Specifically, the system can
-              utilize different style references (such as different accents, emotions, singing techniques, etc.) to
-              transform the source audio's style, while preserving its original timbre by using itself as the timbre
-              reference:
+              We release wEar, the largest and most diverse bilingual whispered-normal parallel dataset to date, covering both English and Chinese. Beyond dataset release, we conduct systematic scalability experiments by leveraging large-scale pseudo-parallel data generated via our N2W pipeline. The results show clear performance gains as training data scales, validating WhispEar’s ability to effectively utilize synthetic whispered data and highlighting a practical pathway for scaling whispered speech conversion.
             </p>
           </div>
 
