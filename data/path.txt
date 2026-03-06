@@ -1,3 +1,5 @@
+w2n
+
 lgu
 user100_task001
 user121_task023
@@ -7,3 +9,15 @@ wtimit
 s000u354 A lawyer was appointed to execute her will.
 s102u069 Eat your raisins outdoors on the porch steps.
 s108u010 Are your grades higher or lower than Nancy's?
+
+n2w
+
+wtimit
+s000u003 This was easy for us.
+s102u004 Jane may earn more money by working hard.
+s002u007 Nothing is as offensive as innocence.
+
+lgu
+user004_task002
+user005_task018
+user006_task074

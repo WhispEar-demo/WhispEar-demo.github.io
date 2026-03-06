@@ -477,37 +477,62 @@
               <table class="table-gallery">
                 <thead>
                   <tr>
-                    <th style="text-align: center; width: 14%;">Task</th>
-                    <th style="text-align: center; width: 21%;">
-                      Raw Audio
-                    </th>
-                    <th style="text-align: center; width: 22%;">Raw Text</th>
-                    <th style="text-align: center; width: 22%;">Target Text</th>
-                    <th style="text-align: center; width: 21%;">Results</th>
-                  </tr>
+                    <th style="text-align: center; width: 21%;">Normal Input</th>
+                    <th style="text-align: center; width: 21%;">Whispered GT</th>
+                    <th style="text-align: center; width: 16%;">Reference Text</th>
+                    <th style="text-align: center; width: 21%;">DSP</th>
+                    <th style="text-align: center; width: 21%;">WhispEar(Ours)</th>
+                </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td style="background-color: #f4f4f4;" rowspan="2">
-                      <b>Speech Editing</b>
-                    </td>
                     <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/tts_ref.wav">
+                        <source src="data/n2w_en/norm_0_fixed.WAV">
                       </audio>
                     </td>
                     <td>
-                      Who would've imagined that people could <span class="bg-red-100  px-0.05">really</span>
-                      turn
-                      into <span class="bg-red-100  px-0.05">water</span>...
+                      <audio controls preload="auto">
+                        <source src="data/n2w_en/whsp_0_fixed.WAV">
+                      </audio>
                     </td>
                     <td>
-                      Who would've imagined that people could <span class="bg-blue-100  px-0.05">truly</span>
-                      turn into <span class="bg-blue-100  px-0.05">fire</span>...
+                      This was easy for us.
                     </td>
                     <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/editing_child_gen.wav">
+                        <source src="data/n2w_en/dsp_0.wav">
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/n2w_en/whispear_0.wav">
+                      </audio>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/n2w_en/norm_1_fixed.WAV">
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/n2w_en/whsp_1_fixed.WAV">
+                      </audio>
+                    </td>
+                    <td>
+                      Jane may earn more money by working hard.
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/n2w_en/dsp_1.wav">
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/n2w_en/whispear_1.wav">
                       </audio>
                     </td>
                   </tr>
@@ -515,112 +540,25 @@
                   <tr>
                     <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/houyi_raw.wav">
+                        <source src="data/n2w_en/norm_2_fixed.WAV">
                       </audio>
                     </td>
                     <td>
-                      没什么是<span class="bg-red-100  px-0.05">一</span>发利箭<span
-                        class="bg-red-100  px-0.05">不能</span>解决的。如果有，那就<span class="bg-red-100  px-0.05">两发</span>。
-                    </td>
-                    <td>
-                      没什么是<span class="bg-blue-100  px-0.05">两</span>发利箭<span
-                        class="bg-blue-100  px-0.05">可以</span>解决的。如果有，那就<span class="bg-blue-100  px-0.05">五发</span>。
-                    </td>
-                    <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/editing_houyi_gen.wav">
+                        <source src="data/n2w_en/whsp_2_fixed.WAV">
                       </audio>
                     </td>
-                  </tr>
-
-                  <tr>
-                    <td style="background-color: #f4f4f4;" rowspan="4">
-                      <b>Singing Lyric Editing</b>
-                    </td>
-                    <td rowspan="2">
-                      <audio controls preload="auto">
-                        <source src="data/gallery/adele_raw.wav">
-                      </audio>
-                      Adele (British singer)
-                    </td>
                     <td>
-                      Never mind, <span class="bg-red-100  px-0.05">I'll</span> find <span
-                        class="bg-red-100  px-0.05">someone</span> like <span class="bg-red-100  px-0.05">you</span>.
-                      <span class="bg-red-100  px-0.05">I
-                      </span>wish nothing but
-                    </td>
-                    <td>
-                      Never mind, <span class="bg-blue-100  px-0.05">you'll</span> find <span
-                        class="bg-blue-100  px-0.05">anyone</span> like <span class="bg-blue-100  px-0.05">me</span>.
-                      <span class="bg-blue-100  px-0.05">You
-                      </span>wish nothing but
+                      Nothing is as offensive as innocence.
                     </td>
                     <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/editing_singing_adele_gen.wav">
+                        <source src="data/n2w_en/dsp_2.wav">
                       </audio>
                     </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      <span class="bg-red-100  px-0.05">Never mind</span>, I'll</span> <span
-                        class="bg-red-100  px-0.05">find someone like you</span>.
-                      I wish
-                      <span class="bg-red-100  px-0.05">nothing but</span>
-                    </td>
-                    <td>
-                      <span class="bg-blue-100  px-0.05">Alright</span>, I'll <span class="bg-blue-100  px-0.05">turn
-                        over a new page</span>. I wish
-                      <span class="bg-blue-100  px-0.05">for calm</span>
-                    </td>
                     <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/editing_singing_adele_gen2.wav">
-                      </audio>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td rowspan="2">
-                      <audio controls preload="auto">
-                        <source src="data/gallery/jaychou.wav">
-                      </audio>
-                      周杰伦 (Chinese singer)
-                    </td>
-                    <td>
-                      对<span class="bg-red-100  px-0.05">这个世界</span>如果你有太多的<span
-                        class="bg-red-100  px-0.05">抱怨</span>，跌倒了就不该<span
-                        class="bg-red-100  px-0.05">继续往前走</span>，为什么，人要这么的<span class="bg-red-100  px-0.05">脆弱</span>堕
-                    </td>
-                    <td>
-                      对<span class="bg-blue-100  px-0.05">你的人生</span>如果你有太多的<span
-                        class="bg-blue-100  px-0.05">期盼</span>，跌倒了就不该<span
-                        class="bg-blue-100  px-0.05">低头认输</span>，为什么，人要这么的<span class="bg-blue-100  px-0.05">彷徨</span>堕
-                    </td>
-                    <td>
-                      <audio controls preload="auto">
-                        <source src="data/gallery/editing_singing_jaychou_gen.wav">
-                      </audio>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      对<span class="bg-red-100  px-0.05">这个世界</span>如果<span
-                        class="bg-red-100  px-0.05">你有太多的抱怨</span>，<span class="bg-red-100  px-0.05">跌倒了</span>就不该<span
-                        class="bg-red-100  px-0.05">继续往前走</span>，<span class="bg-red-100  px-0.05">为什么</span>，<span
-                        class="bg-red-100  px-0.05">人要这么的脆弱堕</span>
-                    </td>
-                    <td>
-                      对<span class="bg-blue-100  px-0.05">强化学习</span>如果<span
-                        class="bg-blue-100  px-0.05">实验遇到了瓶颈</span>，<span
-                        class="bg-blue-100  px-0.05">损失值</span>就不该<span class="bg-blue-100  px-0.05">太大动荡</span>，<span
-                        class="bg-blue-100  px-0.05">看梯度啊</span>，<span class="bg-blue-100  px-0.05">网络何时被优化好</span>
-                    </td>
-                    <td>
-                      <audio controls preload="auto">
-                        <source src="data/gallery/editing_singing_jaychou_gen2.wav">
+                        <source src="data/n2w_en/whispear_2.wav">
                       </audio>
                     </td>
                   </tr>
@@ -667,101 +605,91 @@
               <table class="table-gallery">
                 <thead>
                   <tr>
-                    <th style="text-align: center; width: 8%;">Task</th>
-                    <th style="text-align: center; width: 23%;">Source Audio</th>
-                    <th style="text-align: center; width: 23%;">Style Reference</th>
-                    <th style="text-align: center; width: 23%;">Timbre Reference</th>
-                    <th style="text-align: center; width: 23%;">Results</th>
-                  </tr>
+                    <th style="text-align: center; width: 21%;">Normal Input</th>
+                    <th style="text-align: center; width: 21%;">Whispered GT</th>
+                    <th style="text-align: center; width: 16%;">Reference Text</th>
+                    <th style="text-align: center; width: 21%;">DSP</th>
+                    <th style="text-align: center; width: 21%;">WhispEar(Ours)</th>
+                </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td style="background-color: #f4f4f4;" rowspan="2">
-                      <b>Voice Conversion</b>
-                    </td>
-                    <td rowspan="2">
-                      <audio controls preload="auto">
-                        <source src="data/gallery/tts_ref.wav">
-                      </audio>
-                      <!-- Who would've imagined that people could really turn into water... -->
-                      <span class="text-blue-500">American-accented</span>, Female
-                    </td>
                     <td>
-                      /
-                    </td>
-                    <td rowspan="2">
                       <audio controls preload="auto">
-                        <source src="data/gallery/disentangledtts_accent_ref.wav">
+                        <source src="data/n2w_zh/norm_0.wav">
                       </audio>
-                      <span class="text-blue-500">Hindi-accented</span>, Male
                     </td>
                     <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/vc_style_preserved.wav">
+                        <source src="data/n2w_zh/whsp_0.wav">
                       </audio>
-                      <span class="text-blue-500">American-accented</span>, <span class="text-red-500">Male</span>
+                    </td>
+                    <td>
+                      你今天有没有试过新开的那家餐厅？
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/n2w_zh/dsp_0.wav">
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/n2w_zh/whispear_0.wav">
+                      </audio>
                     </td>
                   </tr>
 
                   <tr>
                     <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/disentangledtts_accent_ref.wav">
+                        <source src="data/n2w_zh/norm_1.wav">
                       </audio>
-                      <span class="text-blue-500">Hindi-accented</span>, Male
                     </td>
                     <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/vc_style_converted.wav">
+                        <source src="data/n2w_zh/whsp_1.wav">
                       </audio>
-                      <span class="text-blue-500">Hindi-accented</span>, <span class="text-red-500">Male</span>
+                    </td>
+                    <td>
+                      这个景点每年都有很多游客，我们最好早点去。
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/n2w_zh/dsp_1.wav">
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/n2w_zh/whispear_1.wav">
+                      </audio>
                     </td>
                   </tr>
 
                   <tr>
-                    <td style="background-color: #f4f4f4;" rowspan="2">
-                      <b>Singing Voice Conversion</b>
-                    </td>
-                    <td rowspan="2">
-                      <audio controls preload="auto">
-                        <source src="data/gallery/mj.wav">
-                      </audio>
-                      <!-- What about sunrise? What about rain? What about all the things that you said we were to gain? -->
-                      Michael Jackson (American singer)
-                    </td>
                     <td>
-                      /
-                    </td>
-                    <td rowspan="2">
                       <audio controls preload="auto">
-                        <source src="data/gallery/adele_raw.wav">
+                        <source src="data/n2w_zh/norm_2.wav">
                       </audio>
-                      Adele (British singer)
                     </td>
                     <td>
                       <audio controls preload="auto">
-                        <source src="data/gallery/svc_style_preserved.wav">
+                        <source src="data/n2w_zh/whsp_2.wav">
                       </audio>
-                      <span class="text-blue-500">More head resonance</span>
+                    </td>
+                    <td>
+                      我很想知道接下来的剧情会如何发展。
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/n2w_zh/dsp_2.wav">
+                      </audio>
+                    </td>
+                    <td>
+                      <audio controls preload="auto">
+                        <source src="data/n2w_zh/whispear_2.wav">
+                      </audio>
                     </td>
                   </tr>
-
-                  <tr>
-
-                    <td>
-                      <audio controls preload="auto">
-                        <source src="data/gallery/adele_raw.wav">
-                      </audio>
-                      Adele (British singer)
-                    </td>
-                    <td>
-                      <audio controls preload="auto">
-                        <source src="data/gallery/svc_style_converted.wav">
-                      </audio>
-                      <span class="text-blue-500">More chest resonance</span>
-                    </td>
-                  </tr>
-
 
                 </tbody>
               </table>
