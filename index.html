@@ -119,16 +119,16 @@
               <a href="#w2n-en" class="list-select"><b>W2N-EN</b></a>
             </li>
             <li>
-              <a href="#melody" class="list-select"><b>W2N-CN</b></a>
+              <a href="#w2n-zh" class="list-select"><b>W2N-ZH</b></a>
             </li>
             <li>
-              <a href="#editing" class="list-select"><b>N2W-EN</b></a>
+              <a href="#n2w-en" class="list-select"><b>N2W-EN</b></a>
             </li>
             <li>
-              <a href="#vc" class="list-select"><b>N2W-CN</b></a>
+              <a href="#n2w-zh" class="list-select"><b>N2W-ZH</b></a>
             </li>
             <li>
-              <a href="#vc" class="list-select"><b>wEar-Dataset</b></a>
+              <a href="#wEar-dataset" class="list-select"><b>wEar-Dataset</b></a>
             </li>
 
           </ul>
@@ -149,7 +149,7 @@
           <div class="max-w-[900px] mx-auto mt-8 mb-16">
             <h2>Abstract</h2>
             <p class="text-p">
-              Whispered speech lacks fundamental frequency due to the missing vibration of the vocal fold and periodic excitation, leading to degraded acoustic cues. This makes it challenging to recover timbre-preserved natural speech from whispered speech. Existing Whisper-to-Normal (W2N) methods rely heavily on parallel data, while such data are extremely scarce. Semantic representations perform strongly in the Text-to-Speech area. We observe that despite large acoustic discrepancies between whispered and normal speech, their high semantic similarity allows mutual conversion between them. Motivated by this, we propose <b>WhispEar</b>, a bidirectional framework supporting W2N and N2W tasks. The N2W module allows generating high-quality pseudo-whisper data using large-scale speech datasets. Experiments show that WhispEar significantly outperforms baselines. In addition, we release <b>wEar</b>, which is the largest bilingual dataset(CN-EN) in this field to date. Its effectiveness is further validated through ablation experiments.
+              Whispered speech lacks fundamental frequency due to the missing vibration of the vocal fold and periodic excitation, leading to degraded acoustic cues. This makes it challenging to recover timbre-preserved natural speech from whispered speech. Existing Whisper-to-Normal (W2N) methods rely heavily on parallel data, while such data are extremely scarce. Semantic representations perform strongly in the Text-to-Speech area. We observe that despite large acoustic discrepancies between whispered and normal speech, their high semantic similarity allows mutual conversion between them. Motivated by this, we propose <b>WhispEar</b>, a bidirectional framework supporting W2N and N2W tasks. The N2W module allows generating high-quality pseudo-whisper data using large-scale speech datasets. Experiments show that WhispEar significantly outperforms baselines. In addition, we release <b>wEar</b>, which is the largest bilingual dataset(ZH-EN) in this field to date. Its effectiveness is further validated through ablation experiments.
           </div>
 
           <div class="mt-8 mb-8" id="gallery">
@@ -316,7 +316,7 @@
           </div>
 
 
-          <div class="mt-0 mb-8 pt-10" id="melody">
+          <div class="mt-0 mb-8 pt-10" id="w2n-zh">
             <h5>Zero-shot Whisper-to-Normal Conversion (Chinese)</h5>
           </div>
 
@@ -455,15 +455,14 @@
 
               <p class="mt-2 text-sm text-gray-600 italic">
                 <i>
-                  <b>Note</b>: To accommodate melody control through MIDI score (a standard approach in the
-                  conventional SVS task), we can render MIDI as instrumental sound to facilitate inference (as
-                  demonstrated in the third case of the table).
+                  <b>Note</b>: The prosodic
+                  source is not used during the inference.
                 </i>
               </p>
             </div>
           </div>
 
-          <div class="mt-0 mb-8 pt-10" id="editing">
+          <div class="mt-0 mb-8 pt-10" id="n2w-en">
             <h5>Zero-shot Normal-to-Whisper Conversion (English)</h5>
           </div>
 
@@ -638,7 +637,7 @@
             </div>
           </div>
 
-          <div class="mt-0 mb-8 pt-10" id="vc">
+          <div class="mt-0 mb-8 pt-10" id="n2w-zh">
             <h5>Zero-shot Normal-to-Whisper Conversion (Chinese)</h5>
           </div>
 
@@ -647,7 +646,7 @@
               We additionally demonstrate zero-shot N2W conversion in Mandarin Chinese. The generated whispered speech exhibits stable articulation and natural spectral characteristics, closely matching real whispered recordings. These results confirm that the learned semantic representation remains consistent across languages and supports high-quality bidirectional conversion.
             </p>
 
-            <ul class="flex flex-col space-y-4 list-disc pl-6 text-base text-gray-700">
+            <!-- <ul class="flex flex-col space-y-4 list-disc pl-6 text-base text-gray-700">
               <li class="me-2">
                 When using
                 only the FM stage, i.e., without using the style reference (just as the first and the
@@ -660,7 +659,7 @@
                 the
                 style of the source audio, resulting in <i>higher similarity to the target speaker(singer)</i>.
               </li>
-            </ul>
+            </ul> -->
           </div>
 
           <div class="w-full overflow-x-auto">
@@ -777,7 +776,7 @@
           </div>
 
 
-          <div class="mt-0 mb-8 pt-10" id="sc">
+          <div class="mt-0 mb-8 pt-10" id="wEar-dataset">
             <h5>wEar Dataset and Scalability Analysis</h5>
           </div>
 
