@@ -306,12 +306,12 @@
                 </tbody>
               </table>
 
-              <p class="mt-2 text-sm text-gray-600 italic">
+              <!-- <p class="mt-2 text-sm text-gray-600 italic">
                 <i>
                   <b>Note</b>: The prosodic
                   source is not used during the inference.
                 </i>
-              </p>
+              </p> -->
             </div>
           </div>
 
@@ -453,12 +453,12 @@
                 </tbody>
               </table>
 
-              <p class="mt-2 text-sm text-gray-600 italic">
+              <!-- <p class="mt-2 text-sm text-gray-600 italic">
                 <i>
                   <b>Note</b>: The prosodic
                   source is not used during the inference.
                 </i>
-              </p>
+              </p> -->
             </div>
           </div>
 
@@ -480,7 +480,9 @@
                     <th style="text-align: center; width: 21%;">Normal Input</th>
                     <th style="text-align: center; width: 21%;">Whispered GT</th>
                     <th style="text-align: center; width: 16%;">Reference Text</th>
-                    <th style="text-align: center; width: 21%;">DSP</th>
+                    <th style="text-align: center; width: 21%;">
+                      Normal2Whisper<sup><a href="#fn-n2w" id="ref-n2w">1</a></sup>
+                    </th>
                     <th style="text-align: center; width: 21%;">WhispEar(Ours)</th>
                 </tr>
                 </thead>
@@ -566,12 +568,12 @@
                 </tbody>
               </table>
 
-              <p class="mt-2 text-sm text-gray-600 italic">
+              <!-- <p class="mt-2 text-sm text-gray-600 italic">
                 <i>
                   <b>Note</b>: In the editing tasks, the raw audio serves simultaneously as the prosodic source, style
                   reference, and timbre reference during inference.
                 </i>
-              </p>
+              </p> -->
             </div>
           </div>
 
@@ -608,7 +610,9 @@
                     <th style="text-align: center; width: 21%;">Normal Input</th>
                     <th style="text-align: center; width: 21%;">Whispered GT</th>
                     <th style="text-align: center; width: 16%;">Reference Text</th>
-                    <th style="text-align: center; width: 21%;">DSP</th>
+                    <th style="text-align: center; width: 21%;">
+                      Normal2Whisper<sup><a href="#fn-n2w" id="ref-n2w">1</a></sup>
+                    </th>
                     <th style="text-align: center; width: 21%;">WhispEar(Ours)</th>
                 </tr>
                 </thead>
@@ -695,12 +699,12 @@
               </table>
             </div>
 
-            <p class="mt-2 text-sm text-gray-600 italic">
+            <!-- <p class="mt-2 text-sm text-gray-600 italic">
               <i>
                 <b>Note</b>: In the VC task, the prosodic
                 source is not used during the inference. In the SVC task, we use source audio as the prosodic source.
               </i>
-            </p>
+            </p> -->
           </div>
 
 
@@ -714,154 +718,116 @@
             </p>
           </div>
 
-          <div class="w-full overflow-x-auto">
-            <div class="relative w-[1200px] mx-auto text-sm text-left rtl:text-right text-gray-900">
-              <table class="table-gallery">
+          <div class="flex mx-auto justify-center max-w-screen-lg py-8">
+            <!-- <div class="relative w-[1200px] mx-auto text-sm text-left rtl:text-right text-gray-900"> -->
+              <table>
+                <caption>Comparison of whispered speech conversion datasets in terms of language coverage, total duration, number of parallel pairs, and number of speakers.</caption>
                 <thead>
                   <tr>
-                    <th style="text-align: center; width: 16%;">Task</th>
-                    <th style="text-align: center; width: 28%;">Source Audio</th>
-                    <th style="text-align: center; width: 28%;">Style Reference</th>
-                    <th style="text-align: center; width: 28%;">Results</th>
+                    <th>Dataset</th>
+                    <th>Language(s)</th>
+                    <th>Total Duration (h)</th>
+                    <th>Pairs</th>
+                    <th>Speakers</th>
                   </tr>
                 </thead>
                 <tbody>
-
-                  <tr>
-                    <td style="background-color: #f4f4f4;">
-                      <b>Accent Conversion</b>
-                    </td>
-                    <td rowspan="2">
-                      <audio controls preload="auto">
-                        <source src="data/gallery/style_accent_input.wav">
-                      </audio>
-                      <span class="text-blue-500">American-accented</span>, <span class="text-red-500">Female</span>
-                    </td>
-                    <td>
-                      <audio controls preload="auto">
-                        <source src="data/gallery/disentangledtts_accent_ref.wav">
-                      </audio>
-                      <span class="text-blue-500">Hindi-accented</span>, Male
-                    </td>
-                    <td>
-                      <audio controls preload="auto">
-                        <source src="data/gallery/style_accent_gen.wav">
-                      </audio>
-                      <span class="text-blue-500">Hindi-accented</span>, <span class="text-red-500">Female</span>
-                    </td>
+                  <!-- Others 部分 -->
+                  <tr style="background-color: #ECF4FF;">
+                    <td colspan="5" style="text-align: center; font-style: italic;">Others</td>
                   </tr>
-
                   <tr>
-                    <td style="background-color: #f4f4f4;">
-                      <b>Emotion Conversion</b>
-                    </td>
-
-                    <td>
-                      <audio controls preload="auto">
-                        <source src="data/gallery/taiyizhenren.wav">
-                      </audio>
-                      <span class="text-blue-500">Emotional</span>, Male
-                    </td>
-                    <td>
-                      <audio controls preload="auto">
-                        <source src="data/gallery/style_emotion_gen.wav">
-                      </audio>
-                      <span class="text-blue-500">Emotional</span>, <span class="text-red-500">Female</span>
-                    </td>
+                    <td>wTIMIT</td>
+                    <td>EN</td>
+                    <td>26</td>
+                    <td>19k</td>
+                    <td>48</td>
                   </tr>
-
                   <tr>
-                    <td style="background-color: #f4f4f4;">
-                      <b>Whisper-to-Normal Conversion</b>
-                    </td>
-                    <td>
-                      <audio controls preload="auto">
-                        <source src="data/gallery/style_whisper2normal_input.wav">
-                      </audio>
-                      Whisper
-                    </td>
-                    <td>
-                      <audio controls preload="auto">
-                        <source src="data/gallery/style_whisper2normal_ref.wav">
-                      </audio>
-                      <span class="text-blue-500">Normal</span>
-                    </td>
-                    <td>
-                      <audio controls preload="auto">
-                        <source src="data/gallery/style_whisper2normal_gen.wav">
-                      </audio>
-                      <span class="text-blue-500">Normal</span>
-                    </td>
+                    <td>CHAINs</td>
+                    <td>EN</td>
+                    <td>3</td>
+                    <td>1k</td>
+                    <td>36</td>
                   </tr>
-
                   <tr>
-                    <td style="background-color: #f4f4f4;" rowspan="3">
-                      <b>Singing Style Conversion</b>
-                    </td>
-                    <td>
-                      <audio controls preload="auto">
-                        <source src="data/gallery/style_singing_input.wav">
-                      </audio>
-                      Normal, <span class="text-red-500">Male</span>
-                    </td>
-                    <td rowspan="3">
-                      <audio controls preload="auto">
-                        <source src="data/gallery/style_singing_ref.wav">
-                      </audio>
-                      <span class="text-blue-500">Extensive vibratos and tempo rubato</span>, Female
-                    </td>
-                    <td>
-                      <audio controls preload="auto">
-                        <source src="data/gallery/style_singing_gen.wav">
-                      </audio>
-                      <span class="text-blue-500">More Vibratos</span>, <span class="text-red-500">Male</span>
-                    </td>
+                    <td>iWhisper</td>
+                    <td>CN</td>
+                    <td>15</td>
+                    <td>--</td>
+                    <td>80</td>
                   </tr>
-
                   <tr>
-                    <td rowspan="2">
-                      <audio controls preload="auto">
-                        <source src="data/gallery/taozhe.wav">
-                      </audio>
-                      陶喆 (Chinese singer)
-                    </td>
-                    <td>
-                      <audio controls preload="auto">
-                        <source src="data/gallery/style_singing_taozhe_gen.wav">
-                      </audio>
-                      <span class="text-blue-500">More Vibratos, Tempo rubato</span>
-                    </td>
+                    <td>wSPIRE</td>
+                    <td>EN</td>
+                    <td>18</td>
+                    <td>--</td>
+                    <td>88</td>
                   </tr>
-
                   <tr>
-                    <td>
-                      <audio controls preload="auto">
-                        <source src="data/gallery/style_singing_taozhe_gen2.wav">
-                      </audio>
-                      <span class="text-blue-500">More Vibratos, Tempo rubato</span>
-                    </td>
+                    <td>AISHELL6</td>
+                    <td>CN</td>
+                    <td>30</td>
+                    <td>20k</td>
+                    <td>167</td>
                   </tr>
-
+                  <tr>
+                    <td>Whisper40</td>
+                    <td>CN</td>
+                    <td>6</td>
+                    <td>1k</td>
+                    <td>36</td>
+                  </tr>
+                  <!-- Ours 部分 -->
+                  <tr style="background-color: #ECF4FF;">
+                    <td colspan="5" style="text-align: center; font-style: italic;">Ours</td>
+                  </tr>
+                  <tr>
+                    <td>wEar (Real)</td>
+                    <td>CN</td>
+                    <td>18</td>
+                    <td>4k</td>
+                    <td>146</td>
+                  </tr>
+                  <tr>
+                    <td>wEar (Pseudo)</td>
+                    <td>EN,CN</td>
+                    <td>3026</td>
+                    <td>600k</td>
+                    <td>230</td>
+                  </tr>
+                  <tr>
+                    <td><strong>wEar (Total)</strong></td>
+                    <td><strong>EN,CN</strong></td>
+                    <td><strong>3044</strong></td>
+                    <td><strong>604k</strong></td>
+                    <td><strong>230</strong></td>
+                  </tr>
                 </tbody>
               </table>
-            </div>
-
-            <p class="mt-2 text-sm text-gray-600 italic">
-              <i>
-                <b>Note</b>: The source audio serves as the timbre reference in these conversion tasks. On the speech
-                domain (such as the first three cases), the prosodic
-                source is not used. On the singing domain (such as the last three case), the source
-                audio also serves as the prosodic source.
-              </i>
-            </p>
+            <!-- </div> -->
           </div>
+
+          <p>&nbsp;</p>
+          
+          <div>
+            <div class="flex mx-auto justify-center max-w-screen-lg py-8">
+              <img src="static/scaling_results.jpg" style="width: 800px; height: auto;" alt=""></img>
+            </div>
+            <caption>Scaling experiment with pseudo-parallel data. Blue curves denote models trained with pseudo-data pretraining only, while red curves denote models further fine-tuned on aligned real data after pretraining.</caption>
+          </div>
+          
 
 
         </div>
       </div>
     </div>
+    <div class="footnotes">
+      <p id="fn-n2w">
+        1. Normal2Whisper: <a href="https://github.com/chaufanglin/Normal2Whisper" target="_blank">https://github.com/chaufanglin/Normal2Whisper</a>
+      </p>
+    </div>
   </div>
-
 
 </body>
 
